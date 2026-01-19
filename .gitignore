@@ -47,3 +47,29 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# OS junk
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Quarto outputs
+*.html
+*_files/
+
+# Data (never commit)
+data/
+*.csv
+*.rds
+*.parquet
+*.fst
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.geojson
+*.sqlite
+*.duckdb
